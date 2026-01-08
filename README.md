@@ -82,37 +82,6 @@ The datapath consists of the following main components:
 - Pipeline flush when a branch is taken
 - Program Counter (PC) updated with branch target
 
----
-
-## 6. Control Unit
-
-The control unit generates the following signals:
-
-- `RegWrite`
-- `MemRead`
-- `MemWrite`
-- `MemToReg`
-- `ALUSrc`
-- `Branch`
-- `ALUOp`
-
-All control signals are properly **pipelined** to match the datapath stages.
-
----
-
-## 8. Simulation and Testing
-
-### 8.1 Tools
-
-- Icarus Verilog
-- ModelSim / QuestaSim
-- Vivado Simulator
-
-### 8.2 Compile and Run (Icarus Verilog)
-
-```bash
-
-
 
 
 
