@@ -12,7 +12,7 @@ The main goal of this project is to study and demonstrate:
 - RISC-V datapath and control design
 - Pipeline operation
 - Hazard detection and forwarding
-- RTL-level CPU implementation
+- Pipelined DIV instructions as a sidecar pipeline, which utilize CPI for M extension
 
 ---
 
