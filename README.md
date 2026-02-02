@@ -1,5 +1,5 @@
 # RV32IM Five-Stage Pipelined RISC-V Processor
-
+Testing manual is in section 7
 ---
 
 ## 1. Features
@@ -113,7 +113,7 @@ This conservative approach guarantees correctness and simplifies forwarding logi
 
 ---
 
-## 10. Testing and Simulation
+## 7. Testing and Simulation
 
 Simulation can be performed using both directed instruction sequences and waveform inspection:
 - Simulation can be done by running the `ISA_runner.v`.
@@ -125,28 +125,23 @@ Implementation can be done on Vivado or any other synthesis tools.
 
 ---
 
-## 11. FPGA Implementation Results
+## 8. FPGA Implementation Results
 
-### 11.1 Timing
+### 8.1 Timing
 - Target clock period: 25 ns (40 MHz)
 - No failing timing endpoints
 - Improved worst negative slack compared to single-cycle and multi-cycle designs
 
-### 11.2 Resource Utilization
+### 8.2 Resource Utilization
 - 3400 LUTs and 2100 flip-flop (big improvement in area usage compared to other RV32IM single-cycle cores)
 - Pipelined divider significantly reduces critical-path pressure
 
 ---
 
-## 12. Conclusion
+## 9. Conclusion
 
 This project demonstrates a fully functional five-stage pipelined RV32IM processor with correct hazard handling, efficient forwarding, and clean integration of a multi-cycle arithmetic unit. The design is suitable for both academic study and further architectural exploration.
 
 ---
 
-## 13. Author
-
-Phạm Minh Nhật  
-Faculty of Computer Science and Engineering  
-Ho Chi Minh City University of Technology  
-December 2025
+### Author: Pham Minh Nhat - HCMUT
